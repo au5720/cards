@@ -3,6 +3,9 @@ defmodule Cards do
     Provides method for creating and handling a deck of cards
   """
 
+  @doc """
+     Create a deck of Cards
+  """
   def create_deck do
     values = ["Ace", "Two", "Three", "Four", "Five"]
     suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
